@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: asyncari
+Version: 0.20.6
+Summary: Asynchronous adapter to the Asterisk ARI interface
+Author-email: Matthias Urlichs <matthias@urlichs.de>
+License: This software is made available under the terms of *either* of the
+        licenses found in LICENSE.APACHE2 or LICENSE.MIT. Contributions to are
+        made under the terms of *both* these licenses.
+        
+Project-URL: Homepage, https://github.com/M-o-a-T/asyncari
+Keywords: asterisk,ari
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AnyIO
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Trio
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Telephony
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: LICENSE.APACHE2
+License-File: LICENSE.MIT
+Requires-Dist: httpx
+Requires-Dist: anyio>=4.6
+Requires-Dist: attrs>=18
+Requires-Dist: asyncwebsockets
+Requires-Dist: asyncswagger11
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+asyncari
+========
+
+Welcome to `asyncari <https://github.com/M-o-a-T/asyncari>`__!
+
+AsyncARI is an AnyIO-ified adapter for the Asterisk ARI interface.
+
+License: Your choice of MIT or Apache License 2.0
+
